@@ -23,8 +23,8 @@ In this repository, you will find important files to conduct the analysis, such 
 
 The following files are used for BDT purposes:
 - `prepare_data.C`
+- `train_TMVA.C` - here is where you feed the BDT your variables and tweak parameters. A weightfile will be generated with scores you can use
 - `test_TMVA.C`
-- `train_TMVA.C`
 - `draw_ROC_TMVA.C`
 
 The objective of this analysis is to recreate the dual-prong structure of the two Bs found inside a single jet ("unresolved") using sub-jets. Substructure variables can then be measured in proton-proton CMS data and then compared (after fitting, unfolding, correcting) to heavy ion collision data, in which we may see differences due to the presence of the quark-gluon plasma. Possible conclusions may include statements about medium-induced radiation effects and the resolution power of the QGP, which was present at the Big Bang.
