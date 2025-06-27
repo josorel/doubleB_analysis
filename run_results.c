@@ -2,7 +2,7 @@
 #include "RooUnfoldResponse.h"
 #include "RooUnfoldInvert.h"
 
-void bottomline_test_v2_new(TString observable="zg", TString jer_opt="nom", TString jec_opt="nom")
+void run_results(TString observable="zg", TString jer_opt="nom", TString jec_opt="nom")
 {    
     // ---------------- Options for b    -------------------
     bool withSF = true;
