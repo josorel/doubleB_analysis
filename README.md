@@ -1,5 +1,6 @@
 Interested in the **Jet Substructure of Unresolved Gluon to b-b Jets** ?
 -
+![image](https://github.com/user-attachments/assets/e5b1cc4c-6a2b-4802-b069-77ae6a112f8e)
 
 This code uses ROOT C++. Packages to install may include RooUnfold, RooFit. 
 In this repository, you will find important files to conduct the analysis, such as:
@@ -26,3 +27,7 @@ The following files are used for BDT purposes:
 - `train_TMVA.C`
 - `draw_ROC_TMVA.C`
 
+The objective of this analysis is to recreate the dual-prong structure of the two Bs found inside a single jet ("unresolved") using sub-jets. Substructure variables can then be measured in proton-proton CMS data and then compared (after fitting, unfolding, correcting) to heavy ion collision data, in which we may see differences due to the presence of the quark-gluon plasma. Possible conclusions may include statements about medium-induced radiation effects and the resolution power of the QGP, which was present at the Big Bang.
+<br />
+<br />
+<img src="https://github.com/user-attachments/assets/722b1428-b335-46d0-bf3f-20e90a5c3075" alt="drawing" width="500"/>
